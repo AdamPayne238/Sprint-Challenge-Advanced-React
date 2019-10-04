@@ -1,4 +1,3 @@
-
 import { add, subtract, multiply, divide } from "./components/Math";
 
 //Add
@@ -37,7 +36,7 @@ test('Divides Parameter a and b', () => {
   expect(actual).toBe(expected);
 });
 
-//Dark Mode
+//Add Dark Mode
 test('Adds and Removes dark-mode class to and from DOM', () => {
   let actual;
   let expected;
@@ -47,3 +46,11 @@ test('Adds and Removes dark-mode class to and from DOM', () => {
   expect(actual).not.toBe("");
 });
 
+// Map players 
+// test("Map over players array", () => {
+//   let actual;
+//   let expected;
+//   actual = PlayersList
+//   expected = PlayersList
+//   expect(actual).toBe(expected);
+// })

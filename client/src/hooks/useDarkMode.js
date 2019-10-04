@@ -7,7 +7,7 @@ export function useDarkMode() {
   useEffect(() => {
     const body = window.document.body;
     if (darkValue) {
-      body.classList.add("use-darkmode");
+      body.classList.add("use-lsdarkmode");
     } else {
       body.classList.remove("use-darkmode");
     }
