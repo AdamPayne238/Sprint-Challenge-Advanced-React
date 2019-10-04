@@ -1,6 +1,7 @@
 
 import { add, subtract, multiply, divide } from "./components/Math";
 
+//Add
 test('Adds Parameter a and b', () => {
   let actual;
   let expected;
@@ -9,6 +10,7 @@ test('Adds Parameter a and b', () => {
   expect(actual).toBe(expected);
 });
 
+//Subtract
 test('Subtracts Parameter a and b', () => {
   let actual;
   let expected;
@@ -17,6 +19,7 @@ test('Subtracts Parameter a and b', () => {
   expect(actual).toBe(expected);
 });
 
+//Multiply
 test('Multiplies Parameter a and b', () => {
   let actual;
   let expected;
@@ -25,6 +28,7 @@ test('Multiplies Parameter a and b', () => {
   expect(actual).toBe(expected);
 });
 
+//Divide
 test('Divides Parameter a and b', () => {
   let actual;
   let expected;
@@ -33,21 +37,13 @@ test('Divides Parameter a and b', () => {
   expect(actual).toBe(expected);
 });
 
+//Dark Mode
+test('Adds and Removes dark-mode class to and from DOM', () => {
+  let actual;
+  let expected;
+  actual = add("dark-mode");
+  expected = add("dark-mode");
+  expect(actual).toBe(expected);
+  expect(actual).not.toBe("");
+});
 
-
-
-
-
-
-
-//Pre Packed Imports and Tests
-
-// import React from 'react';
-// import ReactDOM from 'react-dom';
-// import App from './App';
-
-// it('renders without crashing', () => {
-//   const div = document.createElement('div');
-//   ReactDOM.render(<App />, div);
-//   ReactDOM.unmountComponentAtNode(div);
-// });
