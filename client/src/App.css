@@ -31,3 +31,37 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar {
+  background: black;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  padding: 10px;
+  transition-duration: 1s;
+}
+
+.use-darkmode{
+  background: black;
+  color: white;
+  transition-duration: 1s;
+}
+
+.toggle {
+  background: blue;
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+  transition-duration: 1s;
+}
+
+.toggled {
+  transition-duration: 1s;
+  background: black;
+  border: 5px solid blue;
+  left: 18px;
+  height: 40px;
+  width: 40px;
+}
+
